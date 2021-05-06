@@ -8,6 +8,7 @@ h1 {
 
 .jumbotron {
     background-color: black;
+    border-bottom: solid 2px #eeeeee;
 }
 
 h2 {
@@ -17,13 +18,23 @@ h2 {
     padding: 7px;
 }
 
+.lightup:hover {
+    color: black;
+    text-shadow: 0 0 4px #ffffff;
+}
+
 .footer {
     background-color: black;
     color: #cccccc;
     font-family: 'Open Sans', sans-serif;
+    border-top: solid 2px #eeeeee;
 }
 
 .footer a {
     text-decoration: none;
     color: #cccccc;
+}
+
+.footer a:hover {
+    color: #ffffff;
 }
