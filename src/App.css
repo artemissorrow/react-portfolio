@@ -1,14 +1,24 @@
+body{
+    background-color: #000000;
+}
+
 h1 {
     font-family: 'Poiret One', sans-serif;
     font-size: 400%;
     color: #cccccc;
     background-color: #000000;
     padding: 7px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #cccccc;
 }
 
 .jumbotron {
     background-color: black;
-    border-bottom: solid 2px #eeeeee;
+    border-bottom: solid 2px #333;
 }
 
 h2 {
@@ -27,7 +37,7 @@ h2 {
     background-color: black;
     color: #cccccc;
     font-family: 'Open Sans', sans-serif;
-    border-top: solid 2px #eeeeee;
+    border-top: solid 2px #333;
 }
 
 .footer a {
@@ -37,4 +47,18 @@ h2 {
 
 .footer a:hover {
     color: #ffffff;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+.headshot {
+    max-width: 100%;
+    border: solid 2px #666666;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #eeeeee;
 }

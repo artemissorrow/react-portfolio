@@ -6,7 +6,7 @@ function Header () {
     <div className='jumbotron jumbotron-fluid custom-jumbotron py-5' style={{ backgroundImage: `url(${background})` }}>
       <div className='container'>
         <h1 className="lightup">Artemis Morrow</h1>
-        <hr className="my-4" />
+        <hr className="my-1" />
         <p>
           <ul className='nav justify-content-end'>
             <li className='nav-item'>
