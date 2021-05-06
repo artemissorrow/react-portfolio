@@ -33,6 +33,7 @@ h2 {
   color: #cccccc;
   font-family: 'Open Sans', sans-serif;
   border-top: solid 2px #333;
+  height: 150px;
 }
 
 .footer a {
@@ -44,8 +45,12 @@ h2 {
   color: #ffffff;
 }
 
+.footer h5 {
+    overflow-y: hidden;
+}
+
 .custom-card {
-  height: 285px;
+  height: 290px;
   margin: 1rem;
   padding: 7px;
   width: 225px;
