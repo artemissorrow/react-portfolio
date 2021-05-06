@@ -28,14 +28,14 @@ const projectinfo = [
     title: 'Day Planner',
     image: 'images/plannerscreenshot.jpg',
     github: 'https://github.com/artemissorrow/day-planner',
-    deploy: 'https://artemissorrow.github.io/day-planner/'  
+    deploy: 'https://artemissorrow.github.io/day-planner/'
   },
   {
     id: 5,
     title: 'Budget Tracker',
     image: 'images/budgetscreenshot.jpg',
     github: 'https://github.com/artemissorrow/budget-tracker',
-    deploy: 'https://ancient-tor-53184.herokuapp.com/'  
+    deploy: 'https://ancient-tor-53184.herokuapp.com/'
   },
   {
     id: 6,
@@ -46,9 +46,11 @@ const projectinfo = [
   }
 ]
 
-function ProjectContainer() {
-return(
-    <div className="row row-cols-4 justify-content-center">
+function ProjectContainer () {
+  return ( 
+    <div>
+      <h1 className="indent">...projects</h1>
+      <div className='row row-cols-4 justify-content-center'>
         {projectinfo.map(each => (
           <ProjectCard
             id={each.id}
@@ -58,7 +60,9 @@ return(
             deploy={each.deploy}
           />
         ))}
-    </div>)
+      </div>
+      </div>
+  )
 }
 
-export default ProjectContainer;
+export default ProjectContainer

@@ -83,3 +83,7 @@ p {
 .download-link a {
  text-decoration: none;
 }
+
+.indent {
+    padding-left: 100px;
+}
