@@ -1,6 +1,9 @@
 h1 {
     font-family: 'Poiret One', sans-serif;
+    font-size: 400%;
     color: #cccccc;
+    background-color: #000000;
+    padding: 7px;
 }
 
 .jumbotron {
@@ -9,7 +12,9 @@ h1 {
 
 h2 {
     font-family: 'Poiret One', sans-serif;
-    color: #999999;
+    color: #eeeeee;
+    background-color: #000000;
+    padding: 7px;
 }
 
 .footer {

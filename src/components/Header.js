@@ -3,7 +3,7 @@ import background from "../assets/adrien-olichon-unsplash.jpg"
 
 function Header () {
   return (
-    <div className='jumbotron jumbotron-fluid custom-jumbotron' style={{ backgroundImage: `url(${background})` }}>
+    <div className='jumbotron jumbotron-fluid custom-jumbotron py-5' style={{ backgroundImage: `url(${background})` }}>
       <div className='container'>
         <h1>Artemis Morrow</h1>
         <hr className="my-4" />
@@ -24,11 +24,11 @@ function Header () {
               <h2>Contact</h2>
               </a>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <a className='nav-link' href='#'>
               <h2>Resume</h2>
               </a>
-            </li>
+            </li> */}
           </ul>
         </p>
       </div>
