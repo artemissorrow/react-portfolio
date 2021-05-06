@@ -1,4 +1,5 @@
 import React from 'react'
+import Link  from 'react-router-dom'
 import background from "../assets/adrien-olichon-unsplash.jpg"
 
 function Header () {
@@ -10,19 +11,19 @@ function Header () {
         <p>
           <ul className='nav justify-content-end'>
             <li className='nav-item'>
-              <a className='nav-link' href='/about'>
+              <Link className='nav-link' to='/about'>
               <h2 className="lightup">About</h2>
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/projects'>
+              <Link className='nav-link' to='/projects'>
               <h2 className="lightup">Projects</h2>
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#contact'>
+              <Link className='nav-link' href='#contact'>
               <h2 className="lightup">Contact</h2>
-              </a>
+              </Link>
             </li>
           </ul>
         </p>

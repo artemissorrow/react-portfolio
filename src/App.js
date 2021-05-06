@@ -13,11 +13,10 @@ function App() {
     <div>
       <Header />
       <Switch>
-      <Route exact path={["/", "/about"]}>
+      <Route exact path={["/", "/about"]} component={About}>
         <About />
       </Route>
-      <Route exact path="/projects">
-        <ProjectContainer />
+      <Route exact path="/projects" component={ProjectContainer}>
       </Route>
       </Switch>
       <Footer />

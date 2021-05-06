@@ -13,7 +13,7 @@ function About () {
           />
         </div>
         <div className='col-10 px-5'>
-        <h1 className="indent">...about</h1>
+        <h2 className="indent">...about</h2>
           <p>
             Artemis Morrow is a newly-minted web developer with a strong
             aesthetic sense and creative background. She received a BA in
