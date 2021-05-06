@@ -28,7 +28,7 @@ function About () {
             her wide-ranging and varied work experience into the exciting,
             growing world of programming.
           </p>
-          <div className='text-center'>
+          <div className='text-center download-link'>
             <a href={resume} target="_blank">
               <h2 className='lightup'>download resume</h2>
             </a>

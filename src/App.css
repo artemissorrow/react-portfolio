@@ -79,3 +79,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: #eeeeee;
 }
+
+.download-link a {
+ text-decoration: none;
+}
