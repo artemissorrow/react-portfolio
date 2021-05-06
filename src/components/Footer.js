@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 function Footer () {
   return (
-    <div className='text-center footer fixed-bottom' id="contact">
+    <div className='text-center footer' id="contact">
       <div className='container p-4'>
         <div className='row'>
           <div className='col-lg-3 col-md-6 mb-4 mb-md-0'>

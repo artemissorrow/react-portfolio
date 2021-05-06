@@ -1,5 +1,6 @@
 import React from 'react'
 import headshot from '../assets/headshotpro.jpg'
+import resume from '../assets/ArtemisMorrowResume.pdf'
 
 function About () {
   return (
@@ -28,8 +29,8 @@ function About () {
             growing world of programming.
           </p>
           <div className='text-center'>
-            <a href='../assets/ArtemisMorrowResume.pdf' target="_blank">
-              <h1 className='lightup'>download resume</h1>
+            <a href={resume} target="_blank">
+              <h2 className='lightup'>download resume</h2>
             </a>
           </div>
         </div>

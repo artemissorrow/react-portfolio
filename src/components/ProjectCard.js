@@ -3,12 +3,13 @@ import React from 'react'
 function ProjectCard (props) {
 
   return(
-  <div className='card'>
+  <div className='custom-card col mt-4'>
     <div className='img-container'>
       <img alt={props.title} src={props.image} />
     </div>
     <div className='content'>
       <h2>{props.title}</h2>
+      <p><a href={props.deploy}>link</a> | <a href={props.github}>GitHub</a></p>
     </div>
   </div>)
 }
