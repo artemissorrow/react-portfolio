@@ -1,5 +1,4 @@
 import React from 'react'
-import headshot from '../assets/headshotpro.jpg'
 import resume from '../assets/ArtemisMorrowResume.pdf'
 
 function About () {
@@ -8,7 +7,7 @@ function About () {
       <div className='row'>
         <div className='col-2 justify-content-start'>
           <img
-            src={headshot}
+            src='images/headshotpro.jpg'
             alt='headshot'
             className='headshot rounded-circle'
           />
