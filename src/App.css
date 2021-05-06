@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Poiret One', sans-serif;
+    color: #cccccc;
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+h2 {
+    font-family: 'Poiret One', sans-serif;
+    color: #999999;
+}
+
+.footer {
+    background-color: black;
+    color: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #cccccc;
+}
