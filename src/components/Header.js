@@ -24,11 +24,6 @@ function Header () {
               <h2 className="lightup">Contact</h2>
               </a>
             </li>
-            {/* <li className='nav-item'>
-              <a className='nav-link' href='#'>
-              <h2>Resume</h2>
-              </a>
-            </li> */}
           </ul>
         </p>
       </div>
