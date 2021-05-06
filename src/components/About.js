@@ -4,7 +4,7 @@ import resume from '../assets/ArtemisMorrowResume.pdf'
 
 function About () {
   return (
-    <div className='container p-5'>
+    <div className="py-5 px-3">
       <div className='row'>
         <div className='col-2 justify-content-start'>
           <img
@@ -13,8 +13,8 @@ function About () {
             className='headshot rounded-circle'
           />
         </div>
-        <div className='col-10'>
-          <h1>...about</h1>
+        <div className='col-10 px-5'>
+        <h1 className="indent">...about</h1>
           <p>
             Artemis Morrow is a newly-minted web developer with a strong
             aesthetic sense and creative background. She received a BA in
