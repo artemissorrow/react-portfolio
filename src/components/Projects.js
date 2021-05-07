@@ -50,7 +50,7 @@ function ProjectContainer () {
   return ( 
     <div>
       <h1 className="indent">...projects</h1>
-      <div className='row row-cols-4 justify-content-around flex-wrap'>
+      <div className='row row-cols-4 justify-content-center'>
         {projectinfo.map(each => (
           <ProjectCard
             id={each.id}
