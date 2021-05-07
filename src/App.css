@@ -54,7 +54,7 @@ h2 {
   height: 290px;
   margin: 1rem;
   padding: 7px;
-  width: 380px;
+  width: 400px;
   text-align: center;
   border: solid 1px #333;
 }
@@ -91,5 +91,5 @@ p {
 }
 
 .indent {
-    padding-left: 100px;
+    padding-left: 50px;
 }

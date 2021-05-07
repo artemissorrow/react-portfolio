@@ -5,6 +5,7 @@ function Footer () {
   return (
     <div className='text-center footer' id="contact">
       <div className='container p-4'>
+        <h2 className="lightup">contact</h2>
         <div className='row'>
           <div className='col-lg-3 col-md-6 mb-4 mb-md-0'>
             <h5><a href="mailto:c.artemis.morrow@gmail.com">c.artemis.morrow@gmail.com</a></h5>

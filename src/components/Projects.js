@@ -50,7 +50,7 @@ function ProjectContainer () {
   return ( 
     <div>
       <h1 className="indent">...projects</h1>
-      <div className='row row-cols-4 justify-content-center'>
+      <div className='row row-cols-3 justify-content-center'>
         {projectinfo.map(each => (
           <ProjectCard
             id={each.id}

@@ -5,7 +5,7 @@ function About () {
   return (
     <div className="py-5 px-3">
       <div className='row'>
-        <div className='col-2 justify-content-start'>
+        <div className='col-md-2 justify-content-start'>
           <img
             src='images/headshotpro.jpg'
             alt='headshot'

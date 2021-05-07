@@ -20,11 +20,6 @@ function Header () {
               <h2 className="lightup">Projects</h2>
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link className='nav-link' href='#contact'>
-              <h2 className="lightup">Contact</h2>
-              </Link>
-            </li>
           </ul>
         </p>
       </div>
