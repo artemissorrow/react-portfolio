@@ -83,7 +83,7 @@ img {
 
 .headshot:hover {
   filter: grayscale(0%);
-  border: 0;
+  border: solid 1px #000000;
   box-shadow: 0 0 6px #ffffff;
 }
 
