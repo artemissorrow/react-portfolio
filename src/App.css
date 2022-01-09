@@ -51,7 +51,7 @@ h2 {
 }
 
 .custom-card {
-  height: 300px;
+  height: 375px;
   margin: 1rem;
   padding: 7px;
   width: 500px;
@@ -83,6 +83,7 @@ img {
 
 .headshot:hover {
   filter: grayscale(0%);
+  border: 0;
   box-shadow: 0 0 4px #ffffff;
 }
 
